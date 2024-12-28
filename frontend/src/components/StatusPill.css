@@ -1,0 +1,28 @@
+.common-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-radius: 14px;
+    color: white
+}
+
+.complete-pill {
+    background-color: #05294B;
+}
+
+.pending-pill {
+    background-color: #FDD05E;
+}
+
+.missed-pill {
+    background-color: #E75454
+}
+
+.upcoming-pill {
+    background-color: #46C75A
+}

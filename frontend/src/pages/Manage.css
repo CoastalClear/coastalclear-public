@@ -1,0 +1,70 @@
+.manage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 120px;
+    padding-right: 5%;
+    padding-top: 4%;
+    max-width: 1800px;
+    min-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+}
+
+.upcoming-container {
+    /* flex: 1; */
+    width: 100%;
+    margin-top: 1%;
+}
+
+.upcoming-list {
+    margin-top: 2%;
+}
+
+.upcoming-item {
+    margin-top: 1%;
+}
+
+.table tbody tr {
+    border: 2px solid #dee2e6; /* Bootstrap's default border color for consistency */
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: none;
+}
+
+.table thead {
+    border: none; /* Remove the default top borders from Bootstrap */
+}
+
+.upcoming-booking-row {
+    height: 55px;
+}
+
+#upcoming-table tbody tr td {
+    color: #6987B8; /* Example color: a soft blue */
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#upcoming-table {
+    border: none !important;
+}
+
+.action-button {
+    height: 30px;
+    width: 30px;
+    padding: none !important;
+}
+
+.action-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}

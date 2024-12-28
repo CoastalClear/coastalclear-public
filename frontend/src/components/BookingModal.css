@@ -1,0 +1,149 @@
+.fullscreen-modal .modal-content {
+    min-height: 70vh; /* Adjust height to near full viewport height */
+    width: 95vw; /* Adjust width to near full viewport width */
+    max-width: 1500px !important ; /* Override default max-width */
+    min-width: 480px;
+    max-height: 1000px;
+    overflow-y: scroll;
+  }
+  
+.fullscreen-modal {
+    max-width: none !important ; /* Ensure it can stretch */
+    display: flex;
+    justify-content: center;
+}
+
+.booking-modal-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    overflow-y: scroll;
+}
+
+.booking-title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.bmodal-details-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.bmodal-details-form-field-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.bmodal-details-form-field {
+    width: 33%;
+    padding-right: 5%;
+    flex-direction: column;
+    display: flex;
+}
+
+.bmodal-button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bmodal-button {
+    width: 45% !important;
+    height: 100px;
+    border-radius: 12px !important;
+    font-size: xx-large !important ;
+    min-width: 300px;
+}
+
+.bmodal-button-submit {
+    background-color: #0D3B66 !important ;
+    border: none !important ;
+}
+
+@media (min-width: 1800px) {
+    .confirmation-modal-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 95vh;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        min-height: 800px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .confirmation-modal-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 95vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        min-height: 400px;
+    }
+
+
+}
+
+.cmodal-button {
+    width: 100% !important;
+    height: 100px;
+    border-radius: 12px !important;
+    font-size: xx-large !important ;
+    background-color: #0D3B66 !important ;
+    border: none !important ;
+}
+
+.bmodal-details-form-field .form-select {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.bmodal-confirm-details-individual {
+    width: 33%;
+    min-width: 350px;
+}
+
+.bmodal-image-and-para-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.bmodal-para-special-words {
+    color: #3B88D0
+}
+

@@ -1,0 +1,217 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  justify-content: 'center';
+  align-items: 'center';
+  display: 'flex';
+}
+
+.sidebar {
+  background-color: rgb(35 55 75 / 90%);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.calendar-container {
+  background-color: #FFF;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  margin: 12px;
+  transition: right 0.3s ease-in-out;
+}
+
+.calendar-container-modal-opened {
+  background-color: #FFF;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  bottom: 30px;
+  right: 510px;
+  margin: 12px;
+  transition: right 0.3s ease-in-out;
+}
+
+.mapboxgl-popup-content {
+  border-radius: 15px !important;
+  overflow: hidden; /* Ensure inner content does not overflow the rounded corners */
+  pointer-events: none !important;
+  height: 214px !important;
+  width: 370px !important;
+  padding: 0 !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+.mapboxgl-popup {
+  pointer-events: none
+}
+
+.popup-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-top: 5%;
+  flex-grow: 1
+}
+
+.popup-divider {
+  width: 2px;
+  background-color: #00000030;
+  height: 100%
+}
+
+.popup-left {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.custom-popup-container {
+  width: 100%; /* Take full width */
+  height: 90%; /* Height should be auto to expand to content */ 
+}
+
+.offcanvas {
+  transition-property: transform !important; /* Ensures only the transform property is animated */
+  transition-duration: 0.3s !important; /* Change the duration as needed */
+  transition-timing-function: ease-in-out !important ;
+}
+
+.login-container {
+  height:100vh;
+  width:100vw;
+  display: flex;
+}
+
+.login-image {
+  background-color: darkblue;
+}
+
+.login-form {
+  width: 100%;
+  padding-left: 2%;
+  padding-right:2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  width: 80%;
+}
+
+.form-button {
+  width: 60%;
+}
+
+.login-form-internal {
+  width:90%;
+}
+
+/* Sidebar.css */
+.sidenav {
+  height: 100vh; /* Full-height: remove "vh" if not full height */
+  width: 96px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 10; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #FFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  box-shadow: 8px 0 5px -4px rgba(0, 0, 0, 0.5);
+}
+
+.sidenav-home-icon-square {
+  background-color: #0D3B66;
+  width: 100%;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 25px;
+  cursor: pointer;
+}
+
+.sidenav-icon-square {
+  background-color: #0D3B66;
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav li a.active,
+.sidenav li a:hover {
+  color: #f1f1f1;
+}
+
+.progress .bg-danger {
+  background-color: #E75454 !important;
+}
+
+
+

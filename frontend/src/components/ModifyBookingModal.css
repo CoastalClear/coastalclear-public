@@ -1,0 +1,15 @@
+.modify-modal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 60px;
+}
+
+.modify-modal-top-row {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+}
