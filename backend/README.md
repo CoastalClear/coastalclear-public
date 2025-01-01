@@ -1,23 +1,27 @@
-# Coastal Clear Backend
+# CoastalClear backend
+
+The backend API for CoastalClear, written in [FastAPI](https://fastapi.tiangolo.com/).
 
 ## Getting Started
 
-Create a virtual environment:
+1. Create a virtual environment:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Install dependencies:
+2. Install dependencies:
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
+3. Follow the guide to initialize the [database](./DB_SETUP.md)
+
 ## Usage
 
-Ensure that you have an environment file named `.env` that follows the format `example.env`
+Ensure that you have an environment file named `.env` that follows the format outlined in `example.env`
 
 ### Local
 
@@ -40,17 +44,4 @@ fastapi run main.py
 docker build -t coastalclear-api .
 # Run
 docker run -p 8000:8000 --env-file ./.env coastalclear-api:latest
-# Docker Compose
-docker compose up
-```
-
-
-
-### DB Migrations
-
-After making changes to the classes in `models.py`, it's possible to create a script to update the schema of the database that the application connects to:
-
-```bash
-alembic revision --autogenerate -m <message>
-alembic upgrade head
 ```

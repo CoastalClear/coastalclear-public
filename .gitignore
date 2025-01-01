@@ -1,4 +1,5 @@
 .idea/
+alembic/
 alembic.ini
 
 # Byte-compiled / optimized / DLL files
