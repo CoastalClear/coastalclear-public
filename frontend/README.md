@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# CoastalClear frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Contains 3 separate react applications for CoastalClear's frontend functionalities
+
+`core-web`: The core web application
+
+`attendance-mobile`: A mobile-friendly web application for taking attendance during cleanup sessions
+
+`feedback-mobile`: A mobile-friendly web application for submitting feedback on the status of cleanup locations
+
+For each of the directories, you will need to create `.env` files that match the format of the `example.env` examples
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directories, you can run:
 
 ### `npm start`
 
