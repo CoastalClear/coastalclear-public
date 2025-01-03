@@ -15,7 +15,7 @@ It has a few core features:
 <img src="https://github.com/user-attachments/assets/7a38a0cb-e509-4229-8429-039de313f455" />
 </p>
 
-3. Cleanup volunteers can then submit timely feedback on any particular points of note for a location, and optionally include images and latitude/longitude coordinates.
+3. Cleanup volunteers can then submit timely feedback on any particular points of note for a location, and optionally include images and GPS locations.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/44739634-e5fe-414e-aa3e-a8f234fe1869" height="800"/>
 </p>
@@ -27,4 +27,4 @@ It has a few core features:
 
 ## Contributing
 
-This project was developed over a short period of time as part of a 12-week [hackathon](https://www.build.gov.sg/bfg-environment/). There are certainly areas for optimizations and additional features. However, this codebase is no longer actively maintained. If you would like to use this project for your own purposes, please create your own fork.
+This project was developed over a short period of time as part of a 12-week [hackathon](https://www.build.gov.sg/bfg-environment/). While there are certainly avenues for optimization and additional features, this codebase is no longer being maintained. If you would like to use this project for your own purposes, please create your own fork.
